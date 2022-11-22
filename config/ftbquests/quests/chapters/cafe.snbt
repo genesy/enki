@@ -1,0 +1,487 @@
+{
+	id: "0CD9C2CFD5B81F0D"
+	group: "1FD1130EF244243D"
+	order_index: 1
+	filename: "cafe"
+	title: "Milk Tea"
+	icon: "createcafe:dragonfruit_milk_tea"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4264FBD271580AC7"
+			tasks: [{
+				id: "7FA4F0F8BFC34C3A"
+				type: "item"
+				item: "createcafe:mango_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "26EBD32C3CA1297D"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "00DF1FC30C783AB3"
+			tasks: [{
+				id: "5281D37B8FA354D0"
+				type: "item"
+				item: "createcafe:lime_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6823702D318D7C57"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "52D0623E7FA7B7DC"
+			tasks: [{
+				id: "7698FEBFA36EDA35"
+				type: "item"
+				item: "createcafe:strawberry_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59948910D955EE87"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "0E864679AD7B7243"
+			tasks: [{
+				id: "2885076CC3CBBE6C"
+				type: "item"
+				item: "createcafe:plum_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4658A171DB488105"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "60B42EF5E54D3D18"
+			tasks: [{
+				id: "773CC4A26CEB245C"
+				type: "item"
+				item: "createcafe:apricot_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "715D07B00761CD32"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "017408EA0DB125E4"
+			tasks: [{
+				id: "62460304E52DF638"
+				type: "item"
+				item: "createcafe:fig_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20A3381C8F10F32C"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "26FFFD4AD273FA46"
+			tasks: [{
+				id: "1ADD1F9983AF224F"
+				type: "item"
+				item: "createcafe:peach_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7DC326EAAD800839"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "15DBDC1EADE6E3AF"
+			tasks: [{
+				id: "685352D80579C5AA"
+				type: "item"
+				item: "createcafe:grape_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0122BDFA7C22DC32"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "76A49A9D5E78D653"
+			tasks: [{
+				id: "1CFD918684B288B4"
+				type: "item"
+				item: "createcafe:grapefruit_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5BDFC2C48779CF0F"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "00A938D0CE8FCF29"
+			tasks: [{
+				id: "7E5E2491774583BA"
+				type: "item"
+				item: "createcafe:blueberry_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "694BC6A62A642813"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "4D325180FF0F1654"
+			tasks: [{
+				id: "5F15D41E45462343"
+				type: "item"
+				item: "createcafe:pineapple_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4EAC34079DDD99BC"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "7B0718BEFE6BD12C"
+			tasks: [{
+				id: "5D7DD56D8CD8C165"
+				type: "item"
+				item: "createcafe:apple_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "586D483F5FF1CE14"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "7C7ECDE7F3BF20CC"
+			tasks: [{
+				id: "294D18B3C31B9DAF"
+				type: "item"
+				item: "createcafe:pumpkin_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "37BB66C0D9E1EE63"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "0F6D4C7CC39A7E9A"
+			tasks: [{
+				id: "24E6D0BF7FF0062E"
+				type: "item"
+				item: "createcafe:avocado_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4B7576C66CB00248"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "7FA8BB741CEC6B0C"
+			tasks: [{
+				id: "4E128B847DAC727C"
+				type: "item"
+				item: "createcafe:sweetberry_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "234D09E2E56FB40C"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			id: "531BDF5BE57AEF57"
+			tasks: [{
+				id: "61D141965D746368"
+				type: "item"
+				item: "createcafe:kiwi_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33EC2726A489B443"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			id: "4A488ADCFE8036A4"
+			tasks: [{
+				id: "6C1EF5281B7FE6F6"
+				type: "item"
+				item: "createcafe:orange_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "17DE906D21500919"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			id: "0466F97C54FC5EDB"
+			tasks: [{
+				id: "2BDD26D30EE7D2C8"
+				type: "item"
+				item: "createcafe:coconut_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7DB49AF72475F6C7"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "1B9CC0DAE25AD1D5"
+			tasks: [{
+				id: "18E179B429660D86"
+				type: "item"
+				item: "createcafe:persimmon_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "09A66457A4739FA5"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "70BFE13FD8B503C6"
+			tasks: [{
+				id: "70B8FB58A7077B02"
+				type: "item"
+				item: "createcafe:raspberry_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "594B5DA92A4F1A7C"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "2C2F4863A5F83873"
+			tasks: [{
+				id: "2A401E506C97D970"
+				type: "item"
+				item: "createcafe:lemon_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1CFA61E8360F74DA"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "2860413410122389"
+			tasks: [{
+				id: "18584B36BEF7ED28"
+				type: "item"
+				item: "createcafe:watermelon_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3D8A65A667E1F5AC"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "619BE0D3343371E2"
+			tasks: [{
+				id: "0CB8BECE7FFC9E85"
+				type: "item"
+				item: "createcafe:vanilla_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E13951E1AB2DE26"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "2A15B21734243032"
+			tasks: [{
+				id: "2DC9359308C06780"
+				type: "item"
+				item: "createcafe:banana_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F28B6686EEE7274"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "78D9D5044AA7319B"
+			tasks: [{
+				id: "78719DEE64B79F71"
+				type: "item"
+				item: "createcafe:cherry_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "18D4CB9C8DF0F733"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			id: "7FA41025E6638B3F"
+			tasks: [{
+				id: "2F066C7940178A7B"
+				type: "item"
+				item: "createcafe:blackberry_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "332FFD0E7C8A3AB6"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			id: "421898A636B17B6A"
+			tasks: [{
+				id: "48B88FCFB5ECB249"
+				type: "item"
+				item: "createcafe:dragonfruit_milk_tea"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "566B29A9A330D6FB"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			id: "0BA1775F1B0963CA"
+			tasks: [{
+				id: "4A77CC3EA8811CD8"
+				type: "item"
+				item: "createcafe:oreo_milk_tea"
+				count: 50L
+			}]
+			rewards: [{
+				id: "499358DAD83085D6"
+				type: "xp"
+				xp: 3000
+			}]
+		}
+	]
+}

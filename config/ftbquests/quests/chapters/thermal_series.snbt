@@ -1,0 +1,82 @@
+{
+	id: "4C64EDFE2E68B253"
+	group: "6222694B3079DEB1"
+	order_index: 2
+	filename: "thermal_series"
+	title: "Thermal Series"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -0.5d
+			id: "1CA5C33A7159E18E"
+			tasks: [{
+				id: "351E69A0733C8EDA"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "282E2F7587460B0B"
+			tasks: [{
+				id: "5247D3E723092D2B"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			id: "749977607931212E"
+			tasks: [{
+				id: "73AA5B5262E421A7"
+				type: "item"
+				item: "thermal:device_composter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "68D92F4AF4C6F4B9"
+			tasks: [{
+				id: "75F6AAC8E621EA80"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "10B868F0F2D9FF90"
+			tasks: [{
+				id: "207E28D46B283F97"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "463DFD84357D23EA"
+			tasks: [{
+				id: "402964A60EF1F26C"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+		}
+	]
+}

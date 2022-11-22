@@ -1,0 +1,185 @@
+To refresh this file, delete it and run /reload command again! Last updated: Nov 21, 2022, 7:30:36 PM
+
+#forge:oxygen
+- #ad_astra:oxygen (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#forge:lubricant
+- pneumaticcraft:lubricant (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:crude_oil
+- pneumaticcraft:oil (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- create_things_and_misc:slime (from create_misc_and_things_1.19.2_1.1B.jar)
+- create_things_and_misc:flowing_slime (from create_misc_and_things_1.19.2_1.1B.jar)
+- create_confectionery:black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20221116a.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20221116a.jar)
+- ad_astra:fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:flowing_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:cryo_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:flowing_cryo_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#the_bumblezone:bottom_layer_fluids
+- #the_bumblezone:honey (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.1.53-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.1.53-universal.jar)
+
+#ad_astra:oxygen
+- ad_astra:oxygen (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#ad_astra_platform:oil
+- #c:oil? (from ad_astra-forge-1.19.2-1.11.5.jar)
+- #forge:oil? (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#forge:biofuel
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20221116a.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20221116a.jar)
+
+#forge:visual/honey
+- #the_bumblezone:honey (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#pneumaticcraft:seismic_sensor_interesting
+- #forge:crude_oil (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20221116a.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20221116a.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#the_bumblezone:sugar_water
+- the_bumblezone:sugar_water_still (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- the_bumblezone:sugar_water_flowing (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#biomesoplenty:blood
+- biomesoplenty:blood (from BiomesOPlenty-1.19.2-17.1.1.162.jar)
+- biomesoplenty:flowing_blood (from BiomesOPlenty-1.19.2-17.1.1.162.jar)
+
+#forge:ethanol
+- pneumaticcraft:ethanol (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20221116a.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20221116a.jar)
+
+#create:bottomless/deny
+
+#ad_astra:fuel
+- ad_astra:fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:flowing_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+- #ad_astra:efficient_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.f.jar)
+- create:chocolate (from create-1.19.2-0.5.0.f.jar)
+
+#ad_astra:efficient_fuel
+- ad_astra:cryo_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:flowing_cryo_fuel (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.f.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.f.jar)
+
+#the_bumblezone:convertible_to_sugar_water
+- minecraft:water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- minecraft:flowing_water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#forge:gasoline
+- pneumaticcraft:gasoline (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.15.142.jar)
+- pneumaticcraft:memory_essence (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.f.jar)
+- create:tea (from create-1.19.2-0.5.0.f.jar)
+
+#forge:diesel
+- pneumaticcraft:diesel (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:oil
+- #ad_astra:oil (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#the_bumblezone:honey
+- the_bumblezone:honey_fluid_still (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- the_bumblezone:honey_fluid_flowing (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#the_bumblezone:royal_jelly
+- the_bumblezone:royal_jelly_fluid_still (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- the_bumblezone:royal_jelly_fluid_flowing (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#ad_astra_platform:fuel
+- #c:fuel? (from ad_astra-forge-1.19.2-1.11.5.jar)
+- #forge:fuel? (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#forge:visual/water
+- minecraft:water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- minecraft:flowing_water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#forge:kerosene
+- pneumaticcraft:kerosene (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.0.f.jar)
+- create:honey (from create-1.19.2-0.5.0.f.jar)
+- #the_bumblezone:honey (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- inspirations:honey? (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+- inspirations:flowing_honey? (from the_bumblezone_forge-6.3.5+1.19.2.jar)
+
+#forge:creosote
+
+#ad_astra_platform:oxygen
+- #c:oxygen? (from ad_astra-forge-1.19.2-1.11.5.jar)
+- #forge:oxygen? (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#ad_astra:oil
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.11.5.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.11.5.jar)
+- techreborn:oil? (from ad_astra-forge-1.19.2-1.11.5.jar)
+
+#forge:lpg
+- pneumaticcraft:lpg (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:ink
+- create_enchantment_industry:flowing_ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.f-1.1.3l.jar)
+- create_enchantment_industry:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.f-1.1.3l.jar)
+
+#forge:fuel
+- #ad_astra:fuel (from ad_astra-forge-1.19.2-1.11.5.jar)

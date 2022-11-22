@@ -1,0 +1,444 @@
+{
+	id: "467D3106B75209C6"
+	group: ""
+	order_index: 1
+	filename: "storage"
+	title: "Storage"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "7D0712FEE9348FFE"
+			tasks: [{
+				id: "3DD633689B101BB2"
+				type: "item"
+				item: "sophisticatedstorage:barrel"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["7D0712FEE9348FFE"]
+			id: "02F702E2334D713F"
+			tasks: [{
+				id: "7CF97FFE64CF8207"
+				type: "item"
+				item: "sophisticatedstorage:iron_barrel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["02F702E2334D713F"]
+			id: "20F6C40C075855D6"
+			tasks: [{
+				id: "1C4A6BE1912F7CB4"
+				type: "item"
+				item: "sophisticatedstorage:gold_barrel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["20F6C40C075855D6"]
+			id: "69B6A88A81A7E416"
+			tasks: [{
+				id: "211CC445438A2B31"
+				type: "item"
+				item: "sophisticatedstorage:diamond_barrel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			id: "35246134FF7754A7"
+			tasks: [{
+				id: "498710693820CF2A"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["35246134FF7754A7"]
+			id: "0F8AAE9C0A73464F"
+			tasks: [{
+				id: "0D97F9636BD42E51"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["0F8AAE9C0A73464F"]
+			id: "789C04A661E6763F"
+			tasks: [{
+				id: "4264D148E424FE1B"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["35246134FF7754A7"]
+			id: "2F7D6AF562EFF89A"
+			tasks: [{
+				id: "0F0CA0A368C823F1"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["2F7D6AF562EFF89A"]
+			id: "7BE12610AB61587F"
+			tasks: [{
+				id: "3DF7B4B337258965"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			id: "42C28810A23769CA"
+			tasks: [{
+				id: "0BDC07D1805AE1A9"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["42C28810A23769CA"]
+			id: "08850F9B4237D67F"
+			tasks: [{
+				id: "70ADAD00685480FC"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["08850F9B4237D67F"]
+			id: "405943C9BEF8D96C"
+			tasks: [{
+				id: "68DFCFF5D7157A24"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			dependencies: ["42C28810A23769CA"]
+			id: "0B7D388FC25B4FE4"
+			tasks: [{
+				id: "7B0341B46A5DB3EB"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			dependencies: ["0B7D388FC25B4FE4"]
+			id: "696E8C7B1D2D2BAC"
+			tasks: [{
+				id: "26B5DC145CCA5BC6"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["08850F9B4237D67F"]
+			id: "7C596CA836E4097A"
+			tasks: [{
+				id: "6A5AF39242BA2210"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["7C596CA836E4097A"]
+			id: "29659A4177027FC6"
+			tasks: [{
+				id: "2D3AAAF08A42DFCE"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			dependencies: ["08850F9B4237D67F"]
+			id: "0082F54A7B0FC050"
+			tasks: [{
+				id: "3A23BAD18C0AD4D2"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: [
+				"73F12D1D40B0A842"
+				"0082F54A7B0FC050"
+			]
+			id: "46585B2B5EF7B5AD"
+			tasks: [{
+				id: "743E3BC9753FDFEC"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["29659A4177027FC6"]
+			id: "741432CAAFBA2EAA"
+			tasks: [{
+				id: "1AAEC3E98518B86D"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			dependencies: ["741432CAAFBA2EAA"]
+			id: "1B07AD901C9445AF"
+			tasks: [{
+				id: "4C79D9F41BCABE1D"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			dependencies: ["1B07AD901C9445AF"]
+			id: "5AA8BA68ED41A4E0"
+			tasks: [{
+				id: "425B9613D51CD4CE"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["405943C9BEF8D96C"]
+			id: "360B62683297900B"
+			tasks: [{
+				id: "1BD9075B6CBCEE3B"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["405943C9BEF8D96C"]
+			id: "7860B93FD05C6FD9"
+			tasks: [{
+				id: "602929B21DC6E675"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["360B62683297900B"]
+			id: "1BAC2D4DDEEC23FB"
+			tasks: [{
+				id: "190667ABB651A116"
+				type: "item"
+				item: "extrastorage:advanced_exporter"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["7860B93FD05C6FD9"]
+			dependency_requirement: "one_completed"
+			id: "69051F89180E2265"
+			tasks: [{
+				id: "23B14BDCBE37C70D"
+				type: "item"
+				item: "extrastorage:advanced_importer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			dependencies: [
+				"696E8C7B1D2D2BAC"
+				"0082F54A7B0FC050"
+			]
+			id: "73F12D1D40B0A842"
+			tasks: [{
+				id: "7DE759D40FA31F93"
+				type: "item"
+				item: "refinedstorage:wireless_grid"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.5d
+			dependencies: ["73F12D1D40B0A842"]
+			id: "37645AC1F7F6C4C4"
+			tasks: [{
+				id: "453E7741E12D3041"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			dependencies: ["0B7D388FC25B4FE4"]
+			id: "4786631B46949955"
+			tasks: [{
+				id: "5AB804B488E771BF"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 11.0d
+			dependencies: ["4786631B46949955"]
+			id: "5CC3DDAB3ED8F760"
+			tasks: [{
+				id: "6A980FAAA66C3AA5"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["7C596CA836E4097A"]
+			id: "1AAFEAAEFEB5F358"
+			tasks: [{
+				id: "1931316434070762"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			dependencies: [
+				"37645AC1F7F6C4C4"
+				"5CC3DDAB3ED8F760"
+				"73F12D1D40B0A842"
+			]
+			id: "6EF5890B6A518EED"
+			tasks: [{
+				id: "14DCBFED38D0B482"
+				type: "item"
+				item: "universalgrid:creative_wireless_universal_grid"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			id: "71307EF786047C10"
+			tasks: [{
+				id: "5AEA39E71F4F3955"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["71307EF786047C10"]
+			id: "310D80874ED023F2"
+			tasks: [{
+				id: "3316990DB06728E9"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["310D80874ED023F2"]
+			id: "5DB658F78EB5FF65"
+			tasks: [{
+				id: "2F39B567D8AA0F3F"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["5DB658F78EB5FF65"]
+			id: "08E98EB0EFCC26F0"
+			tasks: [{
+				id: "7E466D416BA0F9FA"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["08E98EB0EFCC26F0"]
+			id: "732D1A1DC6383694"
+			tasks: [{
+				id: "76E554062A178C3C"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			dependencies: ["732D1A1DC6383694"]
+			id: "5658927933135BF0"
+			tasks: [{
+				id: "727ACBB8077596D1"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["71307EF786047C10"]
+			id: "27C045520A02FAF8"
+			tasks: [{
+				id: "47F9840F2F84DD4E"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	id: "55F14112E27D224A"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Obtain a backpack"
+		optional: true
+		id: "2180326143F7ACC7"
+		tasks: [{
+			id: "129923482124E954"
+			type: "item"
+			item: "sophisticatedbackpacks:backpack"
+		}]
+		rewards: [{
+			id: "040A7C226229CD8C"
+			type: "xp"
+			xp: 100
+		}]
+	}]
+}

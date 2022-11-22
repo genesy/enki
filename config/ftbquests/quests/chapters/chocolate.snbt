@@ -1,0 +1,641 @@
+{
+	id: "3C94EA03B045FA87"
+	group: "1FD1130EF244243D"
+	order_index: 0
+	filename: "chocolate"
+	title: "Chocolate"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: 0.5d
+			id: "2076B66EF463BCB9"
+			tasks: [
+				{
+					id: "19851EBF15D083AE"
+					type: "item"
+					item: "create_confectionery:gingerbread"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "730C6B9CCEE5B0AA"
+					type: "item"
+					item: "create_confectionery:gingerbread_man"
+					count: 500L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "26D06C4F73BE3E26"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "4762504453EE4B40"
+			tasks: [
+				{
+					id: "5D994B2DD7316EF5"
+					type: "item"
+					item: {
+						id: "create_confectionery:full_chocolate_bar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 250L
+					consume_items: true
+				}
+				{
+					id: "46A7450BFBE6BDB4"
+					type: "item"
+					item: {
+						id: "create_confectionery:full_black_chocolate_bar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 250L
+					consume_items: true
+				}
+				{
+					id: "27CA092EBBFE7394"
+					type: "item"
+					item: {
+						id: "create_confectionery:full_white_chocolate_bar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 250L
+					consume_items: true
+				}
+				{
+					id: "61CF0172470953A9"
+					type: "item"
+					item: {
+						id: "create_confectionery:full_ruby_chocolate_bar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 250L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "74F8BA3D0C5BD235"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			id: "3D23060DB692C4E0"
+			tasks: [
+				{
+					id: "10D701F4A7AE3D47"
+					type: "item"
+					item: "create_confectionery:hot_chocolate_bottle"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "61A35FFDD3A9D24C"
+					type: "item"
+					item: "create_confectionery:soothing_hot_chocolate"
+					count: 500L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4385F8D7A7D4D0C0"
+					type: "xp_levels"
+					xp_levels: 5000
+				}
+				{
+					id: "3C3F495696C0B030"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "2F8A4828D31A10BE"
+			tasks: [
+				{
+					id: "0FA152DB146E4CBF"
+					type: "item"
+					item: "create:chocolate_glazed_berries"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "02FDF0335A14A054"
+					type: "item"
+					item: "createcafe:mana_berries"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "1F7BCDCAF0DFB06E"
+					type: "item"
+					item: "honeyexpansion:honey_berries"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "2C84B0EF006615BF"
+					type: "item"
+					item: "create_confectionery:black_chocolate_glazed_berries"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "63A7DFB9DF7A4654"
+					type: "item"
+					item: "create_confectionery:white_chocolate_glazed_berries"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "1D1DF24A39AE627B"
+					type: "item"
+					item: "create_confectionery:caramel_glazed_berries"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "22B2B354C58FCE36"
+					type: "item"
+					item: "create_confectionery:ruby_chocolate_glazed_berries"
+					count: 100L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "08B46E39F146A159"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "1F02667FE325F8F7"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			id: "25B8CA4C9BB6E489"
+			tasks: [
+				{
+					id: "767C3DCC86C30824"
+					type: "item"
+					item: "create_confectionery:caramelized_marshmellow_on_a_stick"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "772955C37B76ADB8"
+					type: "item"
+					item: "create_confectionery:chocolate_glazed_marshmallow"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "464A74AC46725BA1"
+					type: "item"
+					item: "create_confectionery:black_chocolate_glazed_marshmallow"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "253393893A7BE09D"
+					type: "item"
+					item: "create_confectionery:white_chocolate_glazed_marshmallow"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "091281880148CC46"
+					type: "item"
+					item: "create_confectionery:ruby_chocolate_glazed_marshmallow"
+					count: 200L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1F3656CEF1F5EC4C"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			id: "3B7E0CF8D293A91A"
+			tasks: [
+				{
+					id: "7BFF1051106C6DBF"
+					type: "item"
+					item: "create_confectionery:candy_cane"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "16FCB4BB11A82BEC"
+					type: "item"
+					item: "create_confectionery:honey_candy"
+					count: 500L
+				}
+			]
+			rewards: [{
+				id: "385FC39ACA0A37B2"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			id: "6EF352260C647B05"
+			tasks: [{
+				id: "51B25052DC56C9C5"
+				type: "item"
+				item: "create:bar_of_chocolate"
+				count: 200L
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			id: "7E90C6901ECF3639"
+			tasks: [{
+				id: "759E5749675B373A"
+				type: "item"
+				item: "create_confectionery:bar_of_black_chocolate"
+				count: 200L
+				consume_items: true
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			id: "4467C9632BB41BB8"
+			tasks: [{
+				id: "5B8CBBC0D46E1B26"
+				type: "item"
+				item: "create_confectionery:bar_of_white_chocolate"
+				count: 200L
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			id: "6CC0657E0EDE7DC4"
+			tasks: [{
+				id: "7635B753DBC683A0"
+				type: "item"
+				item: "create_confectionery:bar_of_ruby_chocolate"
+				count: 200L
+				consume_items: true
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			id: "4988B4405AE87588"
+			tasks: [{
+				id: "3814C25C42E99954"
+				type: "item"
+				item: "create_confectionery:bar_of_caramel"
+			}]
+			rewards: [{
+				id: "47CEA82022BC788F"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			dependencies: ["6EF352260C647B05"]
+			id: "68BF153AA27A6764"
+			tasks: [{
+				id: "29835546B3C11754"
+				type: "item"
+				item: "create_confectionery:chocolate_candy"
+			}]
+			rewards: [{
+				id: "425D2F2BAEF35432"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			dependencies: ["6EF352260C647B05"]
+			id: "32973E74327EC5AE"
+			tasks: [{
+				id: "20419E0D9001BBFC"
+				type: "item"
+				item: "create_confectionery:chocolate_candy_1"
+			}]
+			rewards: [{
+				id: "7206DFB64AD451ED"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			dependencies: ["6EF352260C647B05"]
+			id: "0072E91FBC4931EA"
+			tasks: [{
+				id: "243F701244354E84"
+				type: "item"
+				item: "create_confectionery:chocolate_candy_2"
+			}]
+			rewards: [{
+				id: "26D45DEFD47B1A17"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			dependencies: ["6EF352260C647B05"]
+			id: "1ADE91ED182490EA"
+			tasks: [{
+				id: "2514A07C3A60FDE1"
+				type: "item"
+				item: "create_confectionery:chocolate_candy_3"
+			}]
+			rewards: [{
+				id: "165D5ED0D31EAB64"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["7E90C6901ECF3639"]
+			id: "5904ABF8A2DC8C0C"
+			tasks: [{
+				id: "39864ECE5EF0550A"
+				type: "item"
+				item: "create_confectionery:black_chocolate_candy"
+			}]
+			rewards: [{
+				id: "7E7860EF061FA7EC"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["7E90C6901ECF3639"]
+			id: "532E0405A960E0F6"
+			tasks: [{
+				id: "3C53F426B3B97C84"
+				type: "item"
+				item: "create_confectionery:black_chocolate_candy_1"
+			}]
+			rewards: [{
+				id: "4637827E01CF1720"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["7E90C6901ECF3639"]
+			id: "588C1FE3031922BE"
+			tasks: [{
+				id: "4BEF722D266B6B8F"
+				type: "item"
+				item: "create_confectionery:black_chocolate_candy_2"
+			}]
+			rewards: [{
+				id: "3A0D3840BFC50C03"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["7E90C6901ECF3639"]
+			id: "7C0D68FB733697F7"
+			tasks: [{
+				id: "78CBAE58459782AC"
+				type: "item"
+				item: "create_confectionery:black_chocolate_candy_3"
+			}]
+			rewards: [{
+				id: "38BED98362D6D6BF"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.0d
+			dependencies: ["4467C9632BB41BB8"]
+			id: "2055AE5503CADF67"
+			tasks: [{
+				id: "07D532163EEA93CF"
+				type: "item"
+				item: "create_confectionery:white_chocolate_candy"
+			}]
+			rewards: [{
+				id: "582F43D09B80192E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			dependencies: ["4467C9632BB41BB8"]
+			id: "216F2B9C0C689456"
+			tasks: [{
+				id: "201D51DCEF2E1F44"
+				type: "item"
+				item: "create_confectionery:white_chocolate_candy_1"
+			}]
+			rewards: [{
+				id: "7310779EEA256BFF"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.0d
+			dependencies: ["4467C9632BB41BB8"]
+			id: "7D45B9D3A47D0F86"
+			tasks: [{
+				id: "4AB6C4F2C8C89CAF"
+				type: "item"
+				item: "create_confectionery:white_chocolate_candy_2"
+			}]
+			rewards: [{
+				id: "7BA0248E0F2EF274"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.0d
+			dependencies: ["6CC0657E0EDE7DC4"]
+			id: "2BF9523C8386455F"
+			tasks: [{
+				id: "766577BDB06D3D4E"
+				type: "item"
+				item: "create_confectionery:ruby_chocolate_candy"
+			}]
+			rewards: [{
+				id: "5879CFC624ECDC2E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			dependencies: ["6CC0657E0EDE7DC4"]
+			id: "4358F4C15C855388"
+			tasks: [{
+				id: "24A678DF7CE70018"
+				type: "item"
+				item: "create_confectionery:ruby_chocolate_candy_1"
+			}]
+			rewards: [{
+				id: "07957B77806CA885"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			dependencies: ["6CC0657E0EDE7DC4"]
+			id: "046911BD98BF23D9"
+			tasks: [{
+				id: "78E6B8170787C545"
+				type: "item"
+				item: "create_confectionery:ruby_chocolate_candy_2"
+			}]
+			rewards: [{
+				id: "5F10AD6DCB5A5CAF"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.0d
+			dependencies: ["6CC0657E0EDE7DC4"]
+			id: "18D422DD97E46E1C"
+			tasks: [{
+				id: "09E2554B9B4F335F"
+				type: "item"
+				item: "create_confectionery:ruby_chocolate_candy_3"
+			}]
+			rewards: [{
+				id: "5AE49AF6F65BB7D6"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 12.0d
+			dependencies: ["4467C9632BB41BB8"]
+			id: "59F5189D8B810D3B"
+			tasks: [{
+				id: "25E87EC26F414915"
+				type: "item"
+				item: "create_confectionery:white_chocolate_candy_3"
+			}]
+			rewards: [{
+				id: "4D0B3ADCD4A8E102"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			icon: "create_confectionery:gingerbread_man"
+			x: -1.5d
+			y: 6.5d
+			dependencies: [
+				"3B7E0CF8D293A91A"
+				"2076B66EF463BCB9"
+				"3D23060DB692C4E0"
+				"4988B4405AE87588"
+				"2F8A4828D31A10BE"
+				"4762504453EE4B40"
+				"25B8CA4C9BB6E489"
+				"68BF153AA27A6764"
+				"32973E74327EC5AE"
+				"0072E91FBC4931EA"
+				"1ADE91ED182490EA"
+				"2055AE5503CADF67"
+				"216F2B9C0C689456"
+				"7D45B9D3A47D0F86"
+				"59F5189D8B810D3B"
+				"18D422DD97E46E1C"
+				"046911BD98BF23D9"
+				"4358F4C15C855388"
+				"2BF9523C8386455F"
+				"7C0D68FB733697F7"
+				"532E0405A960E0F6"
+				"588C1FE3031922BE"
+				"5904ABF8A2DC8C0C"
+			]
+			size: 2.0d
+			id: "102797C525E3B6D2"
+			tasks: [{
+				id: "50C16E4666BB1D79"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "406DF6E064FBF416"
+					type: "item"
+					item: "create_confectionery:little_gingerbread_man_spawn_egg"
+				}
+				{
+					id: "1F95A59A48FCF1C0"
+					type: "xp"
+					xp: 4000
+				}
+			]
+		}
+	]
+}
