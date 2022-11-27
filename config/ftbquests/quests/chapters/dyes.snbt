@@ -1,0 +1,454 @@
+{
+	id: "74F9E4038DBF53C9"
+	group: "7DBA7A582F1DA6D5"
+	order_index: 2
+	filename: "dyes"
+	title: "Flower shop"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["0E35A030320D79A0"]
+			id: "5F512D2BE97C1D3F"
+			tasks: [{
+				id: "064B2E1FD50F8CE3"
+				type: "item"
+				item: "flowerseeds:dandelion_seed"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["681743F507303791"]
+			id: "7AE583B7F76F1B90"
+			tasks: [{
+				id: "54623F3B74BC8F28"
+				type: "item"
+				item: "flowerseeds:poppy_seed"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["1976DC80CE76E5C9"]
+			id: "0347AE58E41C9974"
+			tasks: [{
+				id: "7A027C14B55D27C9"
+				type: "item"
+				item: "flowerseeds:orchid_seed"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["6865C2BBFCB31835"]
+			id: "02D5A4BEF1EB7498"
+			tasks: [{
+				id: "1930C7728AA8E96D"
+				type: "item"
+				item: "flowerseeds:allium_seed"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["744273A489508C18"]
+			id: "692C48671DB7CDC1"
+			tasks: [{
+				id: "65BEB598FDB333DA"
+				type: "item"
+				item: "flowerseeds:azure_seed"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["4FCEBA2FC99D0B18"]
+			id: "787A3F5EC6750086"
+			tasks: [{
+				id: "17BF3C0F3F342263"
+				type: "item"
+				item: "flowerseeds:tulip_red_seed"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["29AFDE35FAA686D5"]
+			id: "3647FCE552B31523"
+			tasks: [{
+				id: "243019A7D6CD6D9F"
+				type: "item"
+				item: "flowerseeds:tulip_orange_seed"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["695231F203A960D6"]
+			id: "37DC931720D3F2C2"
+			tasks: [{
+				id: "657CC54132B0CBA5"
+				type: "item"
+				item: "flowerseeds:tulip_white_seed"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["2B2E1A3D70ACA252"]
+			id: "028714F56A84949F"
+			tasks: [{
+				id: "2EA39DC3F7CBDFD1"
+				type: "item"
+				item: "flowerseeds:tulip_pink_seed"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["2C313D549C022BED"]
+			id: "5C171D4F9A03657F"
+			tasks: [{
+				id: "293A840A457668E7"
+				type: "item"
+				item: "flowerseeds:oxeye_seed"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["48EA7765651AE926"]
+			id: "10F5139CA6B0FD6C"
+			tasks: [{
+				id: "5CF6458EA72D0A21"
+				type: "item"
+				item: "flowerseeds:cornflower_seed"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["7B2940C535E0A847"]
+			id: "43DC8C5050D09523"
+			tasks: [{
+				id: "01071895377005AB"
+				type: "item"
+				item: "flowerseeds:lily_seed"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["7D1BE34D79B13FF1"]
+			id: "35A3CF8EB9C091C2"
+			tasks: [{
+				id: "2DA5B8462E54A195"
+				type: "item"
+				item: "flowerseeds:witherrose_seed"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependency_requirement: "all_started"
+			id: "0E35A030320D79A0"
+			tasks: [{
+				id: "00189655E9744233"
+				type: "item"
+				item: "minecraft:dandelion"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "681743F507303791"
+			tasks: [{
+				id: "019F4CC23ABE580F"
+				type: "item"
+				item: "minecraft:poppy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			id: "1976DC80CE76E5C9"
+			tasks: [{
+				id: "3A718CD3E076308E"
+				type: "item"
+				item: "minecraft:blue_orchid"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "6865C2BBFCB31835"
+			tasks: [{
+				id: "576E67DF9FBC5806"
+				type: "item"
+				item: "minecraft:allium"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			id: "744273A489508C18"
+			tasks: [{
+				id: "612288430232F904"
+				type: "item"
+				item: "minecraft:azure_bluet"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "4FCEBA2FC99D0B18"
+			tasks: [{
+				id: "51CAB153ACC925A0"
+				type: "item"
+				item: "minecraft:red_tulip"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "29AFDE35FAA686D5"
+			tasks: [{
+				id: "228F4BF3C74FAFE8"
+				type: "item"
+				item: "minecraft:orange_tulip"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "695231F203A960D6"
+			tasks: [{
+				id: "287E0E6F888E65F7"
+				type: "item"
+				item: "minecraft:white_tulip"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			id: "2B2E1A3D70ACA252"
+			tasks: [{
+				id: "4588E4C20BDD48A3"
+				type: "item"
+				item: "minecraft:pink_tulip"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "2C313D549C022BED"
+			tasks: [{
+				id: "79010719F1653344"
+				type: "item"
+				item: "minecraft:oxeye_daisy"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "48EA7765651AE926"
+			tasks: [{
+				id: "5129033F67D1A098"
+				type: "item"
+				item: "minecraft:cornflower"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			id: "7B2940C535E0A847"
+			tasks: [{
+				id: "311761EEC9393120"
+				type: "item"
+				item: "minecraft:lily_of_the_valley"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			id: "7D1BE34D79B13FF1"
+			tasks: [{
+				id: "757194BD5AB51EDE"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["5F512D2BE97C1D3F"]
+			id: "1EF0F1C1939971DB"
+			tasks: [{
+				id: "0A565836C9E1B5E0"
+				type: "item"
+				item: "minecraft:dandelion"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["7AE583B7F76F1B90"]
+			id: "63CAE7F5A4AC8084"
+			tasks: [{
+				id: "1EB567976CF675F4"
+				type: "item"
+				item: "minecraft:poppy"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["0347AE58E41C9974"]
+			id: "60FA13C35DF9C7A0"
+			tasks: [{
+				id: "5B30CFDEECE05286"
+				type: "item"
+				item: "minecraft:blue_orchid"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["02D5A4BEF1EB7498"]
+			id: "359DDDA66FD4BD03"
+			tasks: [{
+				id: "36D08D6F08CEB3E9"
+				type: "item"
+				item: "minecraft:allium"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["692C48671DB7CDC1"]
+			id: "490E2AFCCD455BAB"
+			tasks: [{
+				id: "774863A3289B2FE7"
+				type: "item"
+				item: "minecraft:azure_bluet"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["787A3F5EC6750086"]
+			id: "34CEC85E667FBB17"
+			tasks: [{
+				id: "5890EDA449A54C89"
+				type: "item"
+				item: "minecraft:red_tulip"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["3647FCE552B31523"]
+			id: "455644A53A6B87DD"
+			tasks: [{
+				id: "757148A05045749C"
+				type: "item"
+				item: "minecraft:orange_tulip"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["37DC931720D3F2C2"]
+			id: "4EBEA574531DC3A0"
+			tasks: [{
+				id: "7AC06A4D05C05DAA"
+				type: "item"
+				item: "minecraft:white_tulip"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			dependencies: ["028714F56A84949F"]
+			id: "31678441A94815DE"
+			tasks: [{
+				id: "10467622DF623314"
+				type: "item"
+				item: "minecraft:pink_tulip"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			dependencies: ["5C171D4F9A03657F"]
+			id: "6E592B6E2C621F42"
+			tasks: [{
+				id: "0E750440828C9B50"
+				type: "item"
+				item: "minecraft:oxeye_daisy"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["10F5139CA6B0FD6C"]
+			id: "0231BE438FF2B62C"
+			tasks: [{
+				id: "519257DA9B0CA8B7"
+				type: "item"
+				item: "minecraft:cornflower"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			dependencies: ["43DC8C5050D09523"]
+			id: "1BE76DC317BB7EE7"
+			tasks: [{
+				id: "7EC343F451A0DBF6"
+				type: "item"
+				item: "minecraft:lily_of_the_valley"
+				count: 100L
+				consume_items: true
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			dependencies: ["35A3CF8EB9C091C2"]
+			id: "685A67009960B0A7"
+			tasks: [{
+				id: "1626606410602336"
+				type: "item"
+				item: "minecraft:wither_rose"
+				count: 100L
+				consume_items: true
+			}]
+		}
+	]
+}

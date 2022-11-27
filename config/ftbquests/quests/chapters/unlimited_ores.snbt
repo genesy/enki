@@ -1,0 +1,125 @@
+{
+	id: "680AF18CA266A428"
+	group: ""
+	order_index: 6
+	filename: "unlimited_ores"
+	title: "Ore Nodes"
+	icon: "kubejs:gold_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Find a Gold Node"
+			icon: "kubejs:gold_block"
+			x: -4.5d
+			y: -0.5d
+			id: "21E53CB7A916B9E4"
+			tasks: [{
+				id: "3785D85543AC3ED0"
+				type: "observation"
+				icon: "kubejs:gold_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:gold_block"
+			}]
+		}
+		{
+			title: "Find an Iron Node"
+			x: -3.5d
+			y: -0.5d
+			id: "090699A07DF22CB3"
+			tasks: [{
+				id: "44021FD5F9F52034"
+				type: "observation"
+				icon: "kubejs:iron_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:iron_block"
+			}]
+		}
+		{
+			title: "Find a Zinc Node"
+			x: -2.5d
+			y: -0.5d
+			id: "28CCB63EBD18BC60"
+			tasks: [{
+				id: "1A4BFDD7C32BD57B"
+				type: "observation"
+				icon: "kubejs:zinc_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:zinc_block"
+			}]
+		}
+		{
+			title: "Find a Copper Node"
+			x: -1.5d
+			y: -0.5d
+			id: "65185B5E2A22D136"
+			tasks: [{
+				id: "5209C483D9B19C11"
+				type: "observation"
+				icon: "kubejs:copper_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:copper_block"
+			}]
+		}
+		{
+			title: "Find a Silver Node"
+			x: -4.5d
+			y: 0.5d
+			id: "471C0E4FAE0F034B"
+			tasks: [{
+				id: "4DC1086BE81DE1F4"
+				type: "observation"
+				icon: "kubejs:silver_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:silver_block"
+			}]
+		}
+		{
+			title: "Find a Lead Node"
+			x: -3.5d
+			y: 0.5d
+			id: "3D7D18AFD1DBA768"
+			tasks: [{
+				id: "6E6E5999E42CE598"
+				type: "observation"
+				icon: "kubejs:lead_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:lead_block"
+			}]
+		}
+		{
+			title: "Find a Nickel Node"
+			x: -2.5d
+			y: 0.5d
+			id: "04A21CFDD8EC7ACE"
+			tasks: [{
+				id: "62F00F5AB11C74C9"
+				type: "observation"
+				icon: "kubejs:nickel_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:nickel_block"
+			}]
+		}
+		{
+			title: "Find a Tin Node"
+			x: -1.5d
+			y: 0.5d
+			id: "496B2090B2F40932"
+			tasks: [{
+				id: "4AA43B39863C4C31"
+				type: "observation"
+				icon: "kubejs:tin_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:tin_block"
+			}]
+		}
+	]
+}

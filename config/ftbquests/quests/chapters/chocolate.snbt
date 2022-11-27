@@ -1,6 +1,6 @@
 {
 	id: "3C94EA03B045FA87"
-	group: "1FD1130EF244243D"
+	group: "7DBA7A582F1DA6D5"
 	order_index: 0
 	filename: "chocolate"
 	title: "Chocolate"
@@ -590,9 +590,11 @@
 			}]
 		}
 		{
+			title: "Gingerbread Man"
 			icon: "create_confectionery:gingerbread_man"
 			x: -1.5d
 			y: 6.5d
+			subtitle: "Place in a spawner for extra fun"
 			dependencies: [
 				"3B7E0CF8D293A91A"
 				"2076B66EF463BCB9"

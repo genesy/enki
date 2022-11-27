@@ -43,13 +43,8 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
+  "enigmaticgraves": {
+    "grave": true
   },
   "jade": {
     "coordinates.rel": false,

@@ -1,6 +1,6 @@
 {
 	id: "0CD9C2CFD5B81F0D"
-	group: "1FD1130EF244243D"
+	group: "7DBA7A582F1DA6D5"
 	order_index: 1
 	filename: "cafe"
 	title: "Milk Tea"
@@ -383,8 +383,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 1.0d
+			y: 5.0d
+			hide_dependency_lines: false
+			secret: true
 			id: "619BE0D3343371E2"
 			tasks: [{
 				id: "0CB8BECE7FFC9E85"
@@ -469,7 +471,7 @@
 		}
 		{
 			x: 4.0d
-			y: 3.5d
+			y: 2.0d
 			id: "0BA1775F1B0963CA"
 			tasks: [{
 				id: "4A77CC3EA8811CD8"

@@ -1,0 +1,27 @@
+{
+	id: "71F3166C165B0F19"
+	group: "7DBA7A582F1DA6D5"
+	order_index: 3
+	filename: "potions"
+	title: "Potions"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -3.5d
+		y: 0.0d
+		id: "049A1D7F9647474B"
+		tasks: [{
+			id: "6EE09AD55260D376"
+			type: "item"
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:mundane"
+				}
+			}
+			count: 50L
+			consume_items: true
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+#.
+#The Tank Capacity of the Disenchanter
+#[@cui:RequiresReload:server]
+#Range: > 0
+disenchanterTankCapacity = 1500
+#.
+#The Tank Capacity of the Copier
+#[@cui:RequiresReload:server]
+#Range: > 0
+copierTankCapacity = 3000
+#.
+#The Tank Capacity of the Blaze Enchanter
+#[@cui:RequiresReload:server]
+#Range: > 0
+blazeEnchanterTankCapacity = 3000
+#.
+#The Maximum Extended Levels beyond Enchantment's Max Level that can be reached through Hyper-Enchanting.
+#Range: > 0
+maxHyperEnchantingLevelExtension = 2
+

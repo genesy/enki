@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "7DBA7A582F1DA6D5", title: "Factorio" }
+		{ id: "775B98849CEB092B", title: "Explore" }
+	]
 }
