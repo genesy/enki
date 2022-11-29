@@ -7,6 +7,8 @@ const MOD = (domain, id, x) =>
   ":" +
   id.replace("#", "");
 const MC = (id, x) => MOD("minecraft", id, x);
+const RQ = (id, x) => MOD("reliquary", id, x);
+const AA = (id, x) => MOD("ad_astra", id, x);
 const PF = (id, x) => MOD("potionflasks", id, x);
 const CR = (id, x) => MOD("create", id, x);
 const CRCR = (id, x) => MOD("createchromaticreturn", id, x);
@@ -15,7 +17,6 @@ const CRCF = (id, x) => MOD("create_confectionery", id, x);
 const CD = (id, x) => MOD("createdeco", id, x);
 const AP = (id, x) => MOD("apotheosis", id, x);
 const BB = (id, x) => MOD("buzzier_bees", id, x);
-const AA = (id, x) => MOD("additionaladditions", id, x);
 const IRF = (id, x) => MOD("ironfurnaces", id, x);
 const BE = (id, x) => MOD("beyond_earth", id, x);
 const DU = (id, x) => MOD("darkutils", id, x);
@@ -48,7 +49,6 @@ const HIDDEN_ITEMS = [
   AP("potion_enchanting"),
   AP("ender_library"),
   "immersive_paintings:painting",
-  AA("honeyed_apple"),
   BB("honey_apple"),
   IRF("million_furnace"),
   IRF("augment_generator"),
@@ -91,3 +91,67 @@ ServerEvents.recipes((event) => {
     event.remove({ output: id });
   });
 });
+
+const transformToKeys = (input) => {
+  const key = {};
+  Object.keys(input).forEach((k) => {
+    key[k] = { item: input[k] };
+  });
+
+  return key;
+};
+
+const createMechanicalCrafting = (output, pattern, input, event) => {
+  const key = transformToKeys(input);
+
+  event.custom({
+    type: "create:mechanical_crafting",
+    acceptMirrored: true,
+    key: key,
+    pattern: pattern,
+    result: {
+      item: output,
+    },
+  });
+};
+
+const createMixing = (output, input, event, options) => {
+  options = options || {};
+
+  const obj = {
+    type: "create:mixing",
+    ingredients: [{ count: 2, item: "minecraft:diamond" }],
+    results: [Item.of(output, 2)],
+  };
+
+  if (options.heated) {
+    obj.heatRequirements = "heated";
+  }
+
+  event.custom(obj);
+};
+
+const createPressing = (output, input, event) => {
+  const obj = {
+    type: "create:pressing",
+    ingredients: input.map((i) => {
+      return { item: i, count: 1 };
+    }),
+    results: output.map((i) => ({ item: i, count: 1 })),
+  };
+
+  event.custom(obj);
+};
+
+const createCompacting = (output, input, event) => {
+  const obj = {
+    type: "create:compacting",
+    ingredients: input.map((i) => {
+      console.log(JSON.stringify(Item.of(i).toJson()));
+      return Item.of(i).toJson();
+    }),
+    results: output.map((i) => Item.of(i).toJson()),
+  };
+
+  event.custom(obj);
+};

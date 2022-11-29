@@ -48,5 +48,10 @@
   "jade:distance": null,
   "jade:block_face": null,
   "corpse:corpse": null,
-  "enigmaticgraves:grave": null
+  "enigmaticgraves:grave": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null,
+  "pipez:pipe": null
 }

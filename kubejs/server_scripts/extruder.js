@@ -50,32 +50,50 @@ ServerEvents.recipes((event) => {
   const extruderId = "create_mechanical_extruder:mechanical_extruder";
   event.remove({ id: "thermal:device_rock_gen" });
   event.remove({ id: extruderId });
-  event.custom({
-    type: "create:mechanical_crafting",
-    acceptMirrored: true,
-    key: {
-      X: {
-        item: "minecraft:iron_block",
-      },
-      B: {
-        item: "create_crystal_clear:andesite_glass_casing",
-      },
-      M: {
-        item: "thermal:machine_frame",
-      },
-      A: {
-        item: "create:piston_extension_pole",
-      },
-    },
+
+  createMechanicalCrafting(
+    extruderId,
     // prettier-ignore
-    pattern: [
+    [
 			" A ",
 			" A ",
 			"BMB",
 			"XXX",
 		],
-    result: {
-      item: extruderId,
+    {
+      A: "create:piston_extension_pole",
+      B: "create_crystal_clear:andesite_glass_casing",
+      M: "thermal:machine_frame",
+      X: MC("iron_block"),
     },
-  });
+    event
+  );
+  // event.custom({
+  //   type: "create:mechanical_crafting",
+  //   acceptMirrored: true,
+  //   key: {
+  //     X: {
+  //       item: "minecraft:iron_block",
+  //     },
+  //     B: {
+  //       item: "create_crystal_clear:andesite_glass_casing",
+  //     },
+  //     M: {
+  //       item: "thermal:machine_frame",
+  //     },
+  //     A: {
+  //       item: "create:piston_extension_pole",
+  //     },
+  //   },
+  //   // prettier-ignore
+  //   pattern: [
+  // 		" A ",
+  // 		" A ",
+  // 		"BMB",
+  // 		"XXX",
+  // 	],
+  //   result: {
+  //     item: extruderId,
+  //   },
+  // });
 });

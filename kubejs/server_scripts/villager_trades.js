@@ -11,8 +11,8 @@ MoreJSEvents.villagerTrades((event) => {
    * - `output`: The output items for the trade.
    */
   // const trade = event.addTrade(profession, level, input, output);
-  event.removeVanillaTrades("librarian");
-  event.removeVanillaTrades("librarian");
+  // event.removeVanillaTrades("librarian");
+  // event.removeVanillaTrades("librarian");
 
   // event.removeTrades({
   //   firstItem: "minecraft:paper",
@@ -20,21 +20,21 @@ MoreJSEvents.villagerTrades((event) => {
   //   outputItem: "minecraft:emerald",
   // });
 
-  event.removeTrades({
-    firstItem: "minecraft:emerald",
-    secondItem: "minecraft:book",
-    outputItem: Item.of("minecraft:enchanted_book"),
-  });
-  event.removeTrades({
-    firstItem: Item.of("minecraft:emerald"),
-    secondItem: "",
-    outputItem: Item.of("minecraft:bookshelf"),
-  });
-  event.removeTrades({
-    firstItem: "",
-    secondItem: "",
-    outputItem: Item.of("minecraft:paper"),
-  });
+  // event.removeTrades({
+  //   firstItem: "minecraft:emerald",
+  //   secondItem: "minecraft:book",
+  //   outputItem: Item.of("minecraft:enchanted_book"),
+  // });
+  // event.removeTrades({
+  //   firstItem: Item.of("minecraft:emerald"),
+  //   secondItem: "",
+  //   outputItem: Item.of("minecraft:bookshelf"),
+  // });
+  // event.removeTrades({
+  //   firstItem: "",
+  //   secondItem: "",
+  //   outputItem: Item.of("minecraft:paper"),
+  // });
 
   // `addTrade` return the trade to set optional data.
   // trade.maxUses(number); // Sets the maximum amount of uses for the trade.

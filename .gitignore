@@ -13,3 +13,5 @@ realms_persistence.json
 local
 screenshots
 not-enough-crashes
+*.bak
+reauth.toml

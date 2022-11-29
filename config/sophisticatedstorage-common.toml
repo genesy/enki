@@ -12,7 +12,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Iron Barrel Settings
 	[common.IronBarrel]
@@ -21,7 +21,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Gold Barrel Settings
 	[common.GoldBarrel]
@@ -30,7 +30,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 0
 
 	#Diamond Barrel Settings
 	[common.DiamondBarrel]
@@ -39,7 +39,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 0
 
 	#Netherite Barrel Settings
 	[common.NetheriteBarrel]
@@ -48,7 +48,7 @@
 		inventorySlotCount = 132
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 0
 
 	#Wood Chest Settings
 	[common.WoodChest]
@@ -57,7 +57,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Iron Chest Settings
 	[common.IronChest]
@@ -66,7 +66,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Gold Chest Settings
 	[common.GoldChest]
@@ -75,7 +75,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 0
 
 	#Diamond Chest Settings
 	[common.DiamondChest]
@@ -84,7 +84,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 0
 
 	#Netherite Chest Settings
 	[common.NetheriteChest]
@@ -93,7 +93,7 @@
 		inventorySlotCount = 132
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 0
 
 	#Shulker Box Settings
 	[common.ShulkerBox]
@@ -102,7 +102,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Iron Shulker Box Settings
 	[common.IronShulkerBox]
@@ -111,7 +111,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Gold Shulker Box Settings
 	[common.GoldShulkerBox]
@@ -120,7 +120,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 0
 
 	#Diamond Shulker Box Settings
 	[common.DiamondShulkerBox]
@@ -129,7 +129,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 0
 
 	#Netherite Shulker Box Settings
 	[common.NetheriteShulkerBox]
@@ -138,7 +138,7 @@
 		inventorySlotCount = 132
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 0
 
 	#Stack Upgrade Settings
 	[common.stackUpgrade]

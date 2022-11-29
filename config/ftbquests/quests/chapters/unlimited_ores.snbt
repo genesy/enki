@@ -1,7 +1,7 @@
 {
 	id: "680AF18CA266A428"
-	group: ""
-	order_index: 6
+	group: "775B98849CEB092B"
+	order_index: 0
 	filename: "unlimited_ores"
 	title: "Ore Nodes"
 	icon: "kubejs:gold_block"

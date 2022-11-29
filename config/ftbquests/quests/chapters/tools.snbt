@@ -1,0 +1,130 @@
+{
+	id: "3AEC6D76F08A018E"
+	group: "359ABBEA34684402"
+	order_index: 0
+	filename: "tools"
+	title: "Tools"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "10DB7A8674C21EAF"
+			tasks: [{
+				id: "725315A5F356F227"
+				type: "item"
+				item: {
+					id: "tools_complement:iron_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "2C219964832C2A18"
+			tasks: [{
+				id: "1245F311BDFD1071"
+				type: "item"
+				item: {
+					id: "tools_complement:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "6DC5495722EB73F1"
+			tasks: [{
+				id: "42B12857C44AD734"
+				type: "item"
+				item: {
+					id: "tools_complement:iron_sickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "7818E3DEC4BE9E70"
+			tasks: [{
+				id: "12D28999E0EEAFE3"
+				type: "item"
+				item: {
+					id: "tools_complement:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "7121B407C3D2D6EE"
+			tasks: [{
+				id: "7DCCB1445CF64DAD"
+				type: "item"
+				item: "crafting_on_a_stick:crafting_table"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "1AAABDC7E6545A35"
+			tasks: [{
+				id: "057257AEF490762E"
+				type: "item"
+				item: {
+					id: "create_sa:experience_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "13C195AEA96C9DAB"
+			tasks: [{
+				id: "0E2470F8931E7C07"
+				type: "item"
+				item: {
+					id: "create_sa:portable_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "7D88BF16651162A5"
+			tasks: [{
+				id: "5312878443A47BEE"
+				type: "item"
+				item: {
+					id: "create_sa:block_picker"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

@@ -8,7 +8,7 @@
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
 	itemFluidHandlerEnabled = true
 	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
-	allowOpeningOtherPlayerBackpacks = true
+	allowOpeningOtherPlayerBackpacks = false
 	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
 	itemDisplayDisabled = false
 
@@ -46,7 +46,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 
 	#Netherite Backpack Settings
 	[common.netheriteBackpack]
@@ -55,7 +55,7 @@
 		inventorySlotCount = 120
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 7
+		upgradeSlotCount = 3
 
 	#Compacting Upgrade Settings
 	[common.compactingUpgrade]
@@ -318,9 +318,9 @@
 	#Inception Upgrade Settings
 	[common.inceptionUpgrade]
 		#Allows / Disallows backpack upgrades to work with inventories of Backpacks in the Backpack with Inception Upgrade
-		upgradesUseInventoriesOfBackpacksInBackpack = true
+		upgradesUseInventoriesOfBackpacksInBackpack = false
 		#Allows / Disallows upgrades to be functional even when they are in Backpacks in the inventory of Backpack with Inception Upgrade
-		upgradesInContainedBackpacksAreFunctional = true
+		upgradesInContainedBackpacksAreFunctional = false
 
 	#Tool Swapper Upgrade Settings
 	[common.toolSwapperUpgrade]
@@ -364,7 +364,7 @@
 	#Xp Pump Upgrade Settings
 	[common.xpPumpUpgrade]
 		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
-		mendingOn = true
+		mendingOn = false
 		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
 		#Range: 1 ~ 20
 		maxXpPointsPerMending = 5
@@ -375,7 +375,7 @@
 		#Range: 0.0 ~ 1.0
 		chance = 0
 		#Turns on/off addition of loot into backpacks
-		addLoot = true
+		addLoot = false
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
 		buffWithPotionEffects = true
 		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
@@ -387,25 +387,25 @@
 		#List of music discs that are not supposed to be played by entities
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
-		playJukebox = true
+		playJukebox = false
 		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
 		dropToFakePlayers = false
 		#Chance of mob dropping backpack when killed by player
 		#Range: 0.0 ~ 1.0
-		backpackDropChance = 0.085
+		backpackDropChance = 0
 		#Chance increase per looting level of mob dropping backpack
 		#Range: 0.0 ~ 0.2
 		lootingChanceIncreasePerLevel = 0.01
 
 	[common.nerfs]
 		#Determines if too many backpacks in player's inventory cause slowness to the player
-		tooManyBackpacksSlowness = false
+		tooManyBackpacksSlowness = true
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		#Range: 1 ~ 27
-		maxNumberOfBackpacks = 3
+		maxNumberOfBackpacks = 1
+		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
+		onlyWornBackpackTriggersUpgrades = true
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		#Range: 0.1 ~ 5.0
 		slownessLevelsPerAdditionalBackpack = 1.0
-		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
-		onlyWornBackpackTriggersUpgrades = false
 
